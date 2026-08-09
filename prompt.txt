@@ -1,1 +1,136 @@
-Convert this photo into a hand-drawn figure sketch. Preserve the main proportions and poses of the human body, but use loose, expressive pencil or ink strokes to capture movement, gesture, and anatomy. Focus on the flow and dynamics of the figure rather than fine details. The sketch should look like a quick study from a sketchbook, monochrome, with visible hand-drawn lines conveying energy and natural posture.(Convert this photo into a hand-draw)----->NoteGPT
+Team Name: Sparksquad
+Problem Statement 1:Design a mobile-first redesign of the ABTalks platform for a 60-day coding challenge used by college students.
+Create three key screens: Landing Page, Student Dashboard, and Daily Challenge page.
+The goal is to improve clarity, motivation, and user experience while handling real-world cases like streaks and missed days.
+Submit a working prototype with a route map and GitHub repository using mock data.
+
+
+#landing page(/):
+
+Modern landing page for a 60-day coding challenge platform called "ABTalks".
+
+Design:
+- Dark theme, minimal, modern UI
+- Clean hero section with headline and subheading
+- CTA button: "Start Challenge"
+
+Sections:
+1. Hero:
+   - Title: "Build Consistency in 60 Days"
+   - Subtitle: "Complete daily coding tasks, track your streak, and grow every day"
+   - CTA button centered
+
+2. Benefits section:
+   - 3 cards:
+     • "Daily Guided Tasks"
+     • "Track Your Streak"
+     • "Build Real Projects"
+
+3. Motivation section:
+   - Text: "Stay consistent with daily guidance"
+
+4. Footer:
+   - Simple, minimal
+
+Style:
+- Rounded buttons
+- Soft shadows
+- Modern spacing
+
+#Dashboard page(/Dashboard):
+
+Design a mobile-first dashboard screen (390px width) for a 60-day coding challenge app.
+
+The user is a college student building daily projects and maintaining a streak.
+
+The UI should be dark-themed, modern, minimal, and highly motivating.
+
+Include the following sections:
+
+1. Header:
+- Greeting like "Hey, keep building 🚀"
+- Small profile avatar
+
+2. Current Streak Card (very prominent):
+- Show streak like "🔥 Day 5"
+- If no streak: show "Start your streak today"
+- Use strong visual emphasis
+
+3. Today's Task Card:
+- Task title (e.g., "Build a Landing Page")
+- Short description
+- Primary CTA button: "View Task"
+
+4. Progress Section:
+- Show progress like "12 / 60 days"
+- Include a progress bar
+
+5. Achievements / Standing:
+- Example badges like "Consistency Badge"
+- Rank like "Top 20%"
+
+6. State Handling:
+- Empty state (no activity yet)
+- Missed day warning
+- Completed today state (show checkmark)
+
+Design requirements:
+- Mobile-first (390px)
+- Clean spacing, soft shadows, rounded cards
+- Smooth hierarchy and readability at night (low brightness usage)
+- Focus on habit-building and motivation (Duolingo-like feel)
+
+Do NOT include:
+- Authentication
+- Complex navigation
+- Desktop layout
+
+Output should look like a real production-ready app UI.
+
+#ChallengeDay(/day/12):
+
+Design a mobile-first "Challenge Day" screen (390px width) for a coding challenge app.
+
+This screen represents a single day (e.g., Day 12 of 60).
+
+The goal is to help the user understand the task and submit proof of work.
+
+UI should be dark-themed, minimal, and focused.
+
+Include:
+
+1. Header:
+- Back button
+- Title: "Day 12"
+
+2. Task Section:
+- Task title (e.g., "Build a Landing Page")
+- Clear description
+- "What to build" section with bullet points
+
+3. Submission Section:
+- Input field for GitHub repository or commit link
+- Input field for LinkedIn post link
+- Primary CTA button: "Submit Proof"
+
+4. Feedback States:
+- Success state (submission complete ✅)
+- Error/empty state (missing links)
+- Loading state
+
+5. Motivation Element:
+- Small message like "Keep your streak alive 🔥"
+
+Design requirements:
+- Mobile-first (390px)
+- Clean card layout
+- Strong CTA button
+- Simple form UX (easy to use at night)
+
+Do NOT include:
+- Backend logic
+- Authentication
+- Complex features
+
+Focus on clarity and quick submission experience.
+
