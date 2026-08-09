@@ -113,7 +113,7 @@ _Add your deployed link here (Netlify / Vercel)_
 ## ⚙️ Run Locally
 
 '''bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/chaitra-44/SparkSquad.git
 cd SparkSquad
 open index.html'''
 
